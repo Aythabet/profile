@@ -100,15 +100,32 @@ a:visited{
   width:100px;
 }
 
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 60px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #eaeae8;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #788188;
+}
+
+#page-content {
   margin-left: 300px;
 }
